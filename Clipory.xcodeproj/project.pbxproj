@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95E291F1449C30C000AED32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95E291E1449C30C000AED32 /* Cocoa.framework */; };
+		C95E29291449C30C000AED32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95E29271449C30C000AED32 /* InfoPlist.strings */; };
+		C95E292B1449C30C000AED32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E292A1449C30C000AED32 /* main.m */; };
+		C95E292F1449C30C000AED32 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C95E292D1449C30C000AED32 /* Credits.rtf */; };
+		C95E29321449C30C000AED32 /* HBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E29311449C30C000AED32 /* HBTAppDelegate.m */; };
+		C95E29351449C30D000AED32 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95E29331449C30D000AED32 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C95E291A1449C30C000AED32 /* Clipory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95E291E1449C30C000AED32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C95E29211449C30C000AED32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C95E29221449C30C000AED32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C95E29231449C30C000AED32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C95E29261449C30C000AED32 /* Clipory-Info.plist */ = {isa = PBXFileReference; path = "Clipory-Info.plist"; sourceTree = "<group>"; };
+		C95E29281449C30C000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C95E292A1449C30C000AED32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95E292C1449C30C000AED32 /* Clipory-Prefix.pch */ = {isa = PBXFileReference; path = "Clipory-Prefix.pch"; sourceTree = "<group>"; };
+		C95E292E1449C30C000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C95E29301449C30C000AED32 /* HBTAppDelegate.h */ = {isa = PBXFileReference; path = HBTAppDelegate.h; sourceTree = "<group>"; };
+		C95E29311449C30C000AED32 /* HBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTAppDelegate.m; sourceTree = "<group>"; };
+		C95E29341449C30D000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95E29171449C30C000AED32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E291F1449C30C000AED32 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95E290F1449C30C000AED32 = {
+			isa = PBXGroup;
+			children = (
+				C95E29241449C30C000AED32 /* Clipory */,
+				C95E291D1449C30C000AED32 /* Frameworks */,
+				C95E291B1449C30C000AED32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95E291B1449C30C000AED32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95E291A1449C30C000AED32 /* Clipory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95E291D1449C30C000AED32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95E291E1449C30C000AED32 /* Cocoa.framework */,
+				C95E29201449C30C000AED32 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95E29201449C30C000AED32 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95E29211449C30C000AED32 /* AppKit.framework */,
+				C95E29221449C30C000AED32 /* CoreData.framework */,
+				C95E29231449C30C000AED32 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C95E29241449C30C000AED32 /* Clipory */ = {
+			isa = PBXGroup;
+			children = (
+				C95E29301449C30C000AED32 /* HBTAppDelegate.h */,
+				C95E29311449C30C000AED32 /* HBTAppDelegate.m */,
+				C95E29331449C30D000AED32 /* MainMenu.xib */,
+				C95E29251449C30C000AED32 /* Supporting Files */,
+			);
+			path = Clipory;
+			sourceTree = "<group>";
+		};
+		C95E29251449C30C000AED32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95E29261449C30C000AED32 /* Clipory-Info.plist */,
+				C95E29271449C30C000AED32 /* InfoPlist.strings */,
+				C95E292A1449C30C000AED32 /* main.m */,
+				C95E292C1449C30C000AED32 /* Clipory-Prefix.pch */,
+				C95E292D1449C30C000AED32 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95E29191449C30C000AED32 /* Clipory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95E29381449C30D000AED32 /* Build configuration list for PBXNativeTarget "Clipory" */;
+			buildPhases = (
+				C95E29161449C30C000AED32 /* Sources */,
+				C95E29171449C30C000AED32 /* Frameworks */,
+				C95E29181449C30C000AED32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipory;
+			productName = Clipory;
+			productReference = C95E291A1449C30C000AED32 /* Clipory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95E29111449C30C000AED32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C95E29141449C30C000AED32 /* Build configuration list for PBXProject "Clipory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C95E290F1449C30C000AED32;
+			productRefGroup = C95E291B1449C30C000AED32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95E29191449C30C000AED32 /* Clipory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95E29181449C30C000AED32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E29291449C30C000AED32 /* InfoPlist.strings in Resources */,
+				C95E292F1449C30C000AED32 /* Credits.rtf in Resources */,
+				C95E29351449C30D000AED32 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95E29161449C30C000AED32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E292B1449C30C000AED32 /* main.m in Sources */,
+				C95E29321449C30C000AED32 /* HBTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C95E29271449C30C000AED32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95E29281449C30C000AED32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C95E292D1449C30C000AED32 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95E292E1449C30C000AED32 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C95E29331449C30D000AED32 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95E29341449C30D000AED32 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95E29361449C30D000AED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C95E29371449C30D000AED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C95E29391449C30D000AED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clipory/Clipory-Prefix.pch";
+				INFOPLIST_FILE = "Clipory/Clipory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C95E293A1449C30D000AED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clipory/Clipory-Prefix.pch";
+				INFOPLIST_FILE = "Clipory/Clipory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95E29141449C30C000AED32 /* Build configuration list for PBXProject "Clipory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E29361449C30D000AED32 /* Debug */,
+				C95E29371449C30D000AED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95E29381449C30D000AED32 /* Build configuration list for PBXNativeTarget "Clipory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E29391449C30D000AED32 /* Debug */,
+				C95E293A1449C30D000AED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95E29111449C30C000AED32 /* Project object */;
+}
