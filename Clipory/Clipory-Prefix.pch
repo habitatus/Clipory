@@ -5,3 +5,8 @@
 #ifdef __OBJC__
 	#import <Cocoa/Cocoa.h>
 #endif
+
+
+#define kNotificationStatusItemClicked @"StatusItemClicked"
+#define kNotificationWindowDisplayed @"WindowDisplayed"
+#define kNotificationWindowHidden @"WindowHidden"

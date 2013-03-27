@@ -7,28 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92020F814899F9000EE23F1 /* EventDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92020F714899F9000EE23F1 /* EventDisplayView.m */; };
+		C92020FC1489A04800EE23F1 /* EventDisplayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C92020FB1489A04800EE23F1 /* EventDisplayWindow.m */; };
+		C92020FF1489C49A00EE23F1 /* MouseDisplayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C92020FE1489C49A00EE23F1 /* MouseDisplayWindow.m */; };
+		C92021021489C6DD00EE23F1 /* MouseActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92021011489C6DD00EE23F1 /* MouseActivityView.m */; };
 		C95E291F1449C30C000AED32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95E291E1449C30C000AED32 /* Cocoa.framework */; };
 		C95E29291449C30C000AED32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95E29271449C30C000AED32 /* InfoPlist.strings */; };
 		C95E292B1449C30C000AED32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E292A1449C30C000AED32 /* main.m */; };
 		C95E292F1449C30C000AED32 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C95E292D1449C30C000AED32 /* Credits.rtf */; };
 		C95E29321449C30C000AED32 /* HBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E29311449C30C000AED32 /* HBTAppDelegate.m */; };
 		C95E29351449C30D000AED32 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95E29331449C30D000AED32 /* MainMenu.xib */; };
+		C95E29401449EDEC000AED32 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E293F1449EDEC000AED32 /* StatusItemView.m */; };
+		C95E29431449FFF1000AED32 /* NSCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E29421449FFF0000AED32 /* NSCustomWindow.m */; };
+		C95E2946144A04D1000AED32 /* WindowContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E2945144A04D1000AED32 /* WindowContentView.m */; };
+		C95E2948144A0D01000AED32 /* TopGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C95E2947144A0D01000AED32 /* TopGradient.png */; };
+		C95E294D144A2436000AED32 /* BackgroundNoise.png in Resources */ = {isa = PBXBuildFile; fileRef = C95E294C144A2436000AED32 /* BackgroundNoise.png */; };
+		C97C2E9514B91B6B00FA8729 /* TrackingDotHaloSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C2E9414B91B6B00FA8729 /* TrackingDotHaloSmall.png */; };
+		C97C2E9A14B91F9100FA8729 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C2E9914B91F9100FA8729 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C92020F614899F9000EE23F1 /* EventDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDisplayView.h; sourceTree = "<group>"; };
+		C92020F714899F9000EE23F1 /* EventDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDisplayView.m; sourceTree = "<group>"; };
+		C92020FA1489A04800EE23F1 /* EventDisplayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDisplayWindow.h; sourceTree = "<group>"; };
+		C92020FB1489A04800EE23F1 /* EventDisplayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDisplayWindow.m; sourceTree = "<group>"; };
+		C92020FD1489C49A00EE23F1 /* MouseDisplayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseDisplayWindow.h; sourceTree = "<group>"; };
+		C92020FE1489C49A00EE23F1 /* MouseDisplayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseDisplayWindow.m; sourceTree = "<group>"; };
+		C92021001489C6DD00EE23F1 /* MouseActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseActivityView.h; sourceTree = "<group>"; };
+		C92021011489C6DD00EE23F1 /* MouseActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseActivityView.m; sourceTree = "<group>"; };
 		C95E291A1449C30C000AED32 /* Clipory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95E291E1449C30C000AED32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C95E29211449C30C000AED32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C95E29221449C30C000AED32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C95E29231449C30C000AED32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C95E29261449C30C000AED32 /* Clipory-Info.plist */ = {isa = PBXFileReference; path = "Clipory-Info.plist"; sourceTree = "<group>"; };
+		C95E29261449C30C000AED32 /* Clipory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clipory-Info.plist"; sourceTree = "<group>"; };
 		C95E29281449C30C000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95E292A1449C30C000AED32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C95E292C1449C30C000AED32 /* Clipory-Prefix.pch */ = {isa = PBXFileReference; path = "Clipory-Prefix.pch"; sourceTree = "<group>"; };
+		C95E292C1449C30C000AED32 /* Clipory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipory-Prefix.pch"; sourceTree = "<group>"; };
 		C95E292E1449C30C000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C95E29301449C30C000AED32 /* HBTAppDelegate.h */ = {isa = PBXFileReference; path = HBTAppDelegate.h; sourceTree = "<group>"; };
+		C95E29301449C30C000AED32 /* HBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTAppDelegate.h; sourceTree = "<group>"; };
 		C95E29311449C30C000AED32 /* HBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTAppDelegate.m; sourceTree = "<group>"; };
 		C95E29341449C30D000AED32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C95E293E1449EDEC000AED32 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		C95E293F1449EDEC000AED32 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		C95E29411449FFF0000AED32 /* NSCustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCustomWindow.h; sourceTree = "<group>"; };
+		C95E29421449FFF0000AED32 /* NSCustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCustomWindow.m; sourceTree = "<group>"; };
+		C95E2944144A04D1000AED32 /* WindowContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowContentView.h; sourceTree = "<group>"; };
+		C95E2945144A04D1000AED32 /* WindowContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowContentView.m; sourceTree = "<group>"; };
+		C95E2947144A0D01000AED32 /* TopGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopGradient.png; sourceTree = "<group>"; };
+		C95E294C144A2436000AED32 /* BackgroundNoise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundNoise.png; sourceTree = "<group>"; };
+		C97C2E9414B91B6B00FA8729 /* TrackingDotHaloSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackingDotHaloSmall.png; sourceTree = "<group>"; };
+		C97C2E9914B91F9100FA8729 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97C2E9A14B91F9100FA8729 /* QuartzCore.framework in Frameworks */,
 				C95E291F1449C30C000AED32 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +93,7 @@
 		C95E291D1449C30C000AED32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C97C2E9914B91F9100FA8729 /* QuartzCore.framework */,
 				C95E291E1449C30C000AED32 /* Cocoa.framework */,
 				C95E29201449C30C000AED32 /* Other Frameworks */,
 			);
@@ -82,10 +113,24 @@
 		C95E29241449C30C000AED32 /* Clipory */ = {
 			isa = PBXGroup;
 			children = (
+				C95E29251449C30C000AED32 /* Supporting Files */,
 				C95E29301449C30C000AED32 /* HBTAppDelegate.h */,
 				C95E29311449C30C000AED32 /* HBTAppDelegate.m */,
 				C95E29331449C30D000AED32 /* MainMenu.xib */,
-				C95E29251449C30C000AED32 /* Supporting Files */,
+				C95E293E1449EDEC000AED32 /* StatusItemView.h */,
+				C95E293F1449EDEC000AED32 /* StatusItemView.m */,
+				C95E29411449FFF0000AED32 /* NSCustomWindow.h */,
+				C95E29421449FFF0000AED32 /* NSCustomWindow.m */,
+				C95E2944144A04D1000AED32 /* WindowContentView.h */,
+				C95E2945144A04D1000AED32 /* WindowContentView.m */,
+				C92020FA1489A04800EE23F1 /* EventDisplayWindow.h */,
+				C92020FB1489A04800EE23F1 /* EventDisplayWindow.m */,
+				C92020F614899F9000EE23F1 /* EventDisplayView.h */,
+				C92020F714899F9000EE23F1 /* EventDisplayView.m */,
+				C92020FD1489C49A00EE23F1 /* MouseDisplayWindow.h */,
+				C92020FE1489C49A00EE23F1 /* MouseDisplayWindow.m */,
+				C92021001489C6DD00EE23F1 /* MouseActivityView.h */,
+				C92021011489C6DD00EE23F1 /* MouseActivityView.m */,
 			);
 			path = Clipory;
 			sourceTree = "<group>";
@@ -93,6 +138,9 @@
 		C95E29251449C30C000AED32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C97C2E9414B91B6B00FA8729 /* TrackingDotHaloSmall.png */,
+				C95E294C144A2436000AED32 /* BackgroundNoise.png */,
+				C95E2947144A0D01000AED32 /* TopGradient.png */,
 				C95E29261449C30C000AED32 /* Clipory-Info.plist */,
 				C95E29271449C30C000AED32 /* InfoPlist.strings */,
 				C95E292A1449C30C000AED32 /* main.m */,
@@ -129,6 +177,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Habitatus;
 			};
 			buildConfigurationList = C95E29141449C30C000AED32 /* Build configuration list for PBXProject "Clipory" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -155,6 +204,9 @@
 				C95E29291449C30C000AED32 /* InfoPlist.strings in Resources */,
 				C95E292F1449C30C000AED32 /* Credits.rtf in Resources */,
 				C95E29351449C30D000AED32 /* MainMenu.xib in Resources */,
+				C95E2948144A0D01000AED32 /* TopGradient.png in Resources */,
+				C95E294D144A2436000AED32 /* BackgroundNoise.png in Resources */,
+				C97C2E9514B91B6B00FA8729 /* TrackingDotHaloSmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +219,13 @@
 			files = (
 				C95E292B1449C30C000AED32 /* main.m in Sources */,
 				C95E29321449C30C000AED32 /* HBTAppDelegate.m in Sources */,
+				C95E29401449EDEC000AED32 /* StatusItemView.m in Sources */,
+				C95E29431449FFF1000AED32 /* NSCustomWindow.m in Sources */,
+				C95E2946144A04D1000AED32 /* WindowContentView.m in Sources */,
+				C92020F814899F9000EE23F1 /* EventDisplayView.m in Sources */,
+				C92020FC1489A04800EE23F1 /* EventDisplayWindow.m in Sources */,
+				C92020FF1489C49A00EE23F1 /* MouseDisplayWindow.m in Sources */,
+				C92021021489C6DD00EE23F1 /* MouseActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +347,7 @@
 				C95E293A1449C30D000AED32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

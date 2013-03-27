@@ -1,5 +1,5 @@
 //
-//  main.m
+//  WindowContentView.h
 //  Clipory
 //
 //  Created by Jurica Beroš on 10/15/11.
@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[])
-{
-	return NSApplicationMain(argc, (const char **)argv);
-}
+@interface WindowContentView : NSView
+
+- (void)menuButtonClicked:(id)sender;
+
+@end
